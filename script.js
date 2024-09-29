@@ -15,3 +15,11 @@ form.addEventListener('submit', (event) => {
 
     form.reset();
 });
+
+function popupConfirmacao () {
+    document.getElementById("confirmacaoCadastro").style.display = "block";
+}
+
+function fecharPopup() {
+    document.getElementById("confirmacaoCadastro").style.display = "none";
+}

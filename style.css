@@ -65,3 +65,18 @@ input[type=submit]:hover{
 .button:hover{
     background-color: darkgreen;
 }
+
+#confirmacaoCadastro {
+    display: none;
+    color:darkgreen;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    width: 10fr; 
+    height: 8fr; 
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid darkgreen;
+    }

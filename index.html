@@ -9,29 +9,29 @@
     <h1> Controle de estacionamento</h1>
     <form id="meuFormulario">
         <label for="nome-proprietario">Nome do proprietário:</label>
-        <input type="text" id="nome-proprietario" name="nome-proprietario" value="Severina" required>
+        <input type="text" id="nome-proprietario" name="nome-proprietario" placeholder="Severina" required>
        
         <label for="placa-veiculo">Placa do veículo:</label>
-        <input type="text" id="placa-veiculo" name="placa-veiculo" value="KKA7584" required>
+        <input type="text" id="placa-veiculo" name="placa-veiculo" placeholder="KKA7584" required>
         
         <label for="modelo-veiculo">Modelo do veículo:</label>
-        <input type="text" id="modelo-veiculo" name="modelo-veiculo" value="HB20" required>
+        <input type="text" id="modelo-veiculo" name="modelo-veiculo" placeholder="HB20" required>
         
         <label for="cor-veiculo">Cor do veículo:</label>
-        <input type="text" id="cor-veiculo" name="cor-veiculo" value="Branco" required>
+        <input type="text" id="cor-veiculo" name="cor-veiculo" placeholder="Branco" required>
         
         <label for="numero-vaga">Número da vaga de estacionamento:</label>
-        <input type="text" id="numero-vaga" name="numero-vaga" value="1" required>
+        <input type="text" id="numero-vaga" name="numero-vaga" placeholder="1" required>
 
         <label for="numero-apto">Número do apartamento:</label>
-        <input type="text" id="numero-apto" name="numero-apto" value="104" required>
+        <input type="text" id="numero-apto" name="numero-apto" placeholder="104" required>
         
         <label for="bloco-apto">Bloco do apartamento:</label>
-        <input type="text" id="bloco-apto" name="bloco-apto" value="D" required>
+        <input type="text" id="bloco-apto" name="bloco-apto" placeholder="D" required>
 
-        <input type="submit" value="Enviar">
+         <input type="submit" onclick="popupConfirmacao()" value="Enviar">
     </form>
-    
+    <div id="confirmacaoCadastro" onclick="fecharPopup()">Sua vaga foi cadastrada com sucesso! Clique para fechar</div>
     <a href="listar-vagas.html" class="button">Lista de vagas disponíveis</a>
 
     <footer>
